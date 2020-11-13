@@ -7,3 +7,9 @@
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
 
 
+#学习transformers包的一些方法和例子
+
+transformers [github链接](https://github.com/huggingface/transformers)
+
+使用TFBertModel进行文本分类：[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3629/)
+
