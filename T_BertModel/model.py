@@ -24,14 +24,13 @@ import tensorflow as tf
 
 for gpu in tf.config.experimental.list_physical_devices('GPU'):
     tf.config.experimental.set_memory_growth(gpu, True)
-from transformers import TFBertModel, TFBertMainLayer, TFPreTrainedModel, TFBertPreTrainedModel
+from transformers import TFBertModel
 
 
 class MyTFBert(tf.keras.Model):
     def __init__(self):
         super(MyTFBert, self).__init__()
         self.bert = TFBertModel.from_pretrained('bert-base-chinese', return_dict=True)
-        # self.bert = TFBertMainLayer()
         self.dropout = tf.keras.layers.Dropout(0.1)
         self.dense = tf.keras.layers.Dense(10, activation='softmax')
         self.dense2 = tf.keras.layers.Dense(768, activation='tanh')
@@ -39,9 +38,17 @@ class MyTFBert(tf.keras.Model):
     def call(self, inputs):
         idx, attn, ids = inputs
         hidden = self.bert(idx, attention_mask=attn, token_type_ids=ids, training=False)
-        temp = hidden[0][:, 0]
-        temp = self.dense2(temp)
+
+        # two method for text classification,you can only use one method
+        # so when you use one remember to annotation another
+
+        # use last hidden layer output
+        # temp = hidden[0][:, 0]
+        # temp = self.dense2(temp)
+
+        # use fc output
         temp = hidden[1]
+
         temp = self.dropout(temp, training=True)
         out = self.dense(temp)
         return out
