@@ -16,3 +16,6 @@ transformers [github链接](https://github.com/huggingface/transformers)
 
 TFBertForPreTraining:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3640/)
 ,[代码](https://github.com/Sniper970119/ExampleForTransformers/tree/master/TFBertForPreTraining)
+
+TFBertForMaskedLM:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3658/)
+,[代码](https://github.com/Sniper970119/ExampleForTransformers/tree/master/TFBertForMaskedLM)
