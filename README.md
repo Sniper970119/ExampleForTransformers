@@ -13,3 +13,6 @@ transformers [github链接](https://github.com/huggingface/transformers)
 
 使用TFBertModel进行文本分类：[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3629/)
 ,[代码](https://github.com/Sniper970119/ExampleForTransformers/tree/master/TFBertModel)
+
+TFBertForPreTraining:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3640/)
+,[代码](https://github.com/Sniper970119/ExampleForTransformers/tree/master/TFBertForPreTraining)
