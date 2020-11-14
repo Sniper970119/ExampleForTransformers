@@ -26,8 +26,8 @@ from transformers import BertTokenizer
 for gpu in tf.config.experimental.list_physical_devices('GPU'):
     tf.config.experimental.set_memory_growth(gpu, True)
 
-from T_BertModel.model import MyTFBert
-from T_BertModel.utils import load_data
+from TFBertModel.model import MyTFBert
+from TFBertModel.utils import load_data
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-chinese')
 
