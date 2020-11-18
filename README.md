@@ -23,6 +23,6 @@ TFBertForMaskedLM:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/t
 TFBertForNextSentencePrediction:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3665/)
 ,[代码](https://github.com/Sniper970119/ExampleForTransformers/tree/master/TFBertForNextSentencePrediction)
 
-TFBertForSequenceClassification:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3673/)
+使用TFBertForSequenceClassification行文本分类:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3673/)
 ,[代码](https://github.com/Sniper970119/ExampleForTransformers/tree/master/TFBertForSequenceClassification)
 
