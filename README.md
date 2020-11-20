@@ -23,9 +23,12 @@ TFBertForMaskedLM:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/t
 TFBertForNextSentencePrediction:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3665/)
 ,[代码](https://github.com/Sniper970119/ExampleForTransformers/tree/master/TFBertForNextSentencePrediction)
 
-使用TFBertForSequenceClassification行文本分类:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3673/)
+使用TFBertForSequenceClassification进行文本分类:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3673/)
 ,[代码](https://github.com/Sniper970119/ExampleForTransformers/tree/master/TFBertForSequenceClassification)
 
 TFBertForMultipleChoice:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3681/)
 ,[代码](https://github.com/Sniper970119/ExampleForTransformers/tree/master/TFBertForMultipleChoice)
+
+使用TFBertForTokenClassification进行NER任务:[笔记](http://www.sniper97.cn/index.php/note/deep-learning/transformers/3685/)
+,[代码](https://github.com/Sniper970119/ExampleForTransformers/tree/master/TFBertForTokenClassification)
 
