@@ -20,11 +20,7 @@
 
 """
 
-import os
-import pickle
-from tqdm import tqdm
 import tensorflow as tf
-from transformers import BertTokenizer
 
 for gpu in tf.config.experimental.list_physical_devices('GPU'):
     tf.config.experimental.set_memory_growth(gpu, True)
