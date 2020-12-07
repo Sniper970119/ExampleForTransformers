@@ -27,7 +27,7 @@ for gpu in tf.config.experimental.list_physical_devices('GPU'):
 
 from TFBertForTokenClassification.model import MyModel
 from TFBertForTokenClassification.utils import load_data
-
+#
 if __name__ == '__main__':
     train_text_res, train_labels_padded, dev_text_res, dev_labels_padded, test_text_res, test_labels_padded = load_data()
     model = MyModel()
